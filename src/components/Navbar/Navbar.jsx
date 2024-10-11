@@ -11,11 +11,21 @@ const Navbar = () => {
         <p className="logo__text">LuisLeon-Dev</p>
       </div>
       <ul className="nav__items">
-        <li className="nav__item">About Me</li>
-        <li className="nav__item">Skills</li>
-        <li className="nav__item">Education</li>
-        <li className="nav__item">Projects</li>
-        <li className="nav__item nav__item--focus">Contact</li>
+        <li className="nav__item">
+          <a href="#">About Me</a>
+        </li>
+        <li className="nav__item">
+          <a href="#">Skills</a>
+        </li>
+        <li className="nav__item">
+          <a href="#">Education</a>
+        </li>
+        <li className="nav__item">
+          <a href="#">Projects</a>
+        </li>
+        <li className="nav__item nav__item--focus">
+          <a href="#">Contact</a>
+        </li>
       </ul>
     </div>
   );

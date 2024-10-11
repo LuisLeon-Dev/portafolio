@@ -1,7 +1,7 @@
 .nav {
   display: flex;
   justify-content: space-around;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 .logo {
   display: flex;
@@ -14,14 +14,21 @@
 
 .nav__item {
   display: none;
+  cursor: pointer;
+}
+.nav__item a {
+  text-decoration: none;
+  color: #1e1e1e;
 }
 
 .nav__item--focus {
   display: block;
-  background-color: #507cff;
-  padding: 10px;
-  color: #fff;
+  background-color: #5056ff;
+  padding: 10px 15px;
   border-radius: 10px;
+}
+.nav__item--focus a {
+  color: #fff;
 }
 
 @media (min-width: 1024px) {
@@ -35,10 +42,18 @@
     list-style-type: none;
     font-weight: 300;
   }
+
+  .nav__item:hover {
+    color: #000000;
+  }
+
   .nav__item--focus {
     font-weight: 700;
     background: none;
-    color: #000;
+    color: #181818;
     padding: 0;
+  }
+  .nav__item--focus a {
+    color: #181818;
   }
 }
