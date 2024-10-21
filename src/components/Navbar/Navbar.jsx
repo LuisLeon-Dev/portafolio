@@ -5,7 +5,7 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
-    <div className="nav">
+    <nav className="nav">
       <div className="logo">
         <FontAwesomeIcon icon={faCode} />
         <p className="logo__text">LuisLeon-Dev</p>
@@ -27,7 +27,7 @@ const Navbar = () => {
           <a href="#">Contact</a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 

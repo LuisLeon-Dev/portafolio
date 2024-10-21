@@ -6,7 +6,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <header className="hero">
       <div className="hero__image__container">
         <img src={ilustration} alt="" className="hero__image" />
       </div>
@@ -36,7 +36,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
