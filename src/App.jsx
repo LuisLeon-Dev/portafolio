@@ -1,6 +1,8 @@
 import Header from "./components/Header/Header";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
+import ContactForm from "./components/ContactForm/ContactForm";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Header />
       <AboutMe />
       <Skills />
+      <ContactForm />
+      <Footer />
     </>
   );
 }

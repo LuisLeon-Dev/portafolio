@@ -7,13 +7,15 @@ import {
   faReact,
   faSass,
 } from "@fortawesome/free-brands-svg-icons";
+import "./Skills.css";
 
 const Skills = () => {
   return (
-    <section>
-      <ul>
+    <section className="skills-section">
+      <h2>Skills</h2>
+      <ul className="skills__elements">
         <li className="skills__element">
-          <p>HTML 5</p>
+          HTML 5
           <FontAwesomeIcon
             icon={faHtml5}
             size="3x"
@@ -21,7 +23,7 @@ const Skills = () => {
           />
         </li>
         <li className="skills__element">
-          <p>Css 3</p>
+          Css 3
           <FontAwesomeIcon
             icon={faCss3}
             size="3x"
@@ -29,11 +31,11 @@ const Skills = () => {
           />
         </li>
         <li className="skills__element">
-          <p>JavaScript</p>
+          JavaScript
           <FontAwesomeIcon icon={faJs} size="3x" style={{ color: "#F0DB4F" }} />
         </li>
         <li className="skills__element">
-          <p>Sass</p>
+          Sass
           <FontAwesomeIcon
             icon={faSass}
             size="3x"
@@ -41,7 +43,7 @@ const Skills = () => {
           />
         </li>
         <li className="skills__element">
-          <p>React</p>
+          React
           <FontAwesomeIcon
             icon={faReact}
             size="3x"
